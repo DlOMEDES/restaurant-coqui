@@ -1,0 +1,64 @@
+#topBanner {
+  .container {
+    position: relative;
+  }
+}
+
+// banner content
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  &-image {
+    position: relative;
+    z-index: 1;
+
+    // &:after {
+    //   content: "";
+    //   position: absolute;
+    //   width: 32rem;
+    //   height: 69rem;
+    //   background-color: #b9752b;
+    //   right: -3rem;
+    //   top: -3rem;
+    //   z-index: -2;
+    // }
+    img {
+      background-repeat: no-repeat;
+      // width: 100%;
+      border-radius: 1rem;
+      height: 40rem;
+      object-fit: cover;
+      box-shadow: 4.5rem 3.5rem 6rem -4rem rgba($colorAccent-2, 0.3);
+    }
+  }
+  // CONTENT TEXT
+  &-text {
+    // padding: 5% 0 0 10%;
+    position: relative;
+    ul {
+      li {
+        position: relative;
+        text-transform: uppercase;
+        padding-bottom: 1.25em;
+        margin-bottom: 1.8em;
+
+        &:after {
+          content: "";
+          position: absolute;
+          width: 4rem;
+          height: 0.2rem;
+          background-color: $colorAccent-2;
+          left: 0;
+          bottom: 0;
+        }
+
+        &:last-child {
+          &:after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+}

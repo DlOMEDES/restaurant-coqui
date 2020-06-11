@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Oregano&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="shortcut icon" type="image/png" href="img/coqui-logo.jpg" /> -->
+    
+    <!--
+      CSS will be bundled with in webpacked.js 
+      <link rel="stylesheet" href="css/main.css" /> -->
+    <title>El Coqui | Panaderia & Reposteria</title>
+  </head>
+  <body>
+    <header id="topHeader" class="topHeader">
+      <div class="brandLogo">
+        <!-- BRAND TEXT -->
+        <div class="brand">
+          <div class="brand-text">
+            <h1 class="brand-text__title">El Coqui</h1>
+            <h4 class="brand-text__subtitle">Panaderia & Reposteria</h4>
+          </div>
+          <!-- BRAND IMAGE -->
+          <img class="brand-img" src="img/brand-tree.png" alt="" />
+        </div>
+      </div>
+
+      <nav id="topNav" class="topNav">
+        <ul class="topNav-list">
+          <li class="topNav-list__item"><a href="#toDrink">To Drink</a></li>
+          <li class="topNav-list__item"><a href="#toEat">Eat</a></li>
+          <li class="topNav-list__item"><a href="#event">Events</a></li>
+          <li class="topNav-list__item"><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="topBanner">
+        <div class="container">
+          <!-- image and text -->
+          <div class="content">
+            <div class="content-image">
+              <img src="img/coqui-drinks.jpg" alt="" />
+            </div>
+            <div class="content-text">
+              <ul class="content-list">
+                <li class="content-list__item">Juice</li>
+                <li class="content-list__item">Food</li>
+                <li class="content-list__item">
+                  <span class="text-change">Latin</span>Culture
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Slider -->
+          <div class="topSlider">
+            <div class="topSlider-content">
+              <!-- <div class="dots">
+                <div class="dots-place dots-place__1"></div>
+                <div class="dots-place dots-place__2"></div>
+                <div class="dots-place dots-place__3"></div>
+              </div> -->
+              <div class="topSlider-content__img">
+                <img src="img/coqui-bakes2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="topSlider-details">
+              <p>
+                <span class="address">Address:</span> 3528 I St, Philadelphia,
+                PA 19134
+              </p>
+              <p><span class="phone">Phone:</span> (215) 634-5508</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- beverage menus section -->
+      <section id="toDrink">
+        <div class="container">
+          <div class="sectionTitle">
+            <h2>to drink</h2>
+          </div>
+          <!-- menu tab drinks -->
+          <div class="tabContainer">
+            <div class="tabMenu">
+              <ul class="tabMenu-list">
+                <li class="tabMenu-list__item menuItem-active"><a href="#">cold</a></li>
+                <li class="tabMenu-list__item"><a href="#">hot</a></li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div id="tab">
+                <div class="tabGrid">
+                  <div class="gridItem item-1">
+                    <h4 class="gridItem-name">Sodas</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Can drink</p>
+                      <span class="gridItem-details__price">0.75</p>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+                  <div class="gridItem item-2">
+                    <h4 class="gridItem-name">Maltas</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Lightly carbonated malt beverage</p>
+                      <p class="gridItem-details__price">1.50</p>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+                  <div class="gridItem item-3">
+                    <h4 class="gridItem-name">Snapples</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Fruit-flavored drink</p>
+                      <p class="gridItem-details__price">1.50</p>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+                  <div class="gridItem item-4">
+                    <h4 class="gridItem-name">Juice Goya</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Can beverage</p>
+                      <p class="gridItem-details__price">1.25</p>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Food Images -->
+      <secion id="foodImages">
+        <div class="container">
+          <div class="imageStack">
+              <figure class="imageStack-item">
+                <img src="..img/coqui-eat.jpg" alt="">
+              </figure>
+              <figure class="imageStack-item">
+                <img src="..img/coqui-meal2.jpg" alt="">
+              </figure>
+          </div>
+        </div>
+      </secion>
+      <!-- food menus section -->
+      <section id="toEat">
+        <div class="container">
+          <div class="sectionTitle">
+            <h2>to eat</h2>
+          </div>
+          <!-- menu tab drinks -->
+          <div class="tabContainer">
+            <div class="tabMenu">
+              <ul class="tabMenu-list">
+                <li class="tabMenu-list__item"><a href="#">dulces</a></li>
+                <li class="tabMenu-list__item"><a href="#">reposteria</a></li>
+                <li class="tabMenu-list__item"><a href="#">frituras</a></li>
+                <li class="tabMenu-list__item"><a href="#">sandwiches</a></li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div id="tab">
+                <div class="tabGrid">
+                  <div class="gridItem item-1">
+                    <h4 class="gridItem-name">Quesitos</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Cheesies</p>
+                      <span class="gridItem-details__price">1.50</p>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+                  <div class="gridItem item-2">
+                    <h4 class="gridItem-name">Maltas</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Lightly carbonated malt beverage</p>
+                      <p class="gridItem-details__price">1.50</p>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+                  <div class="gridItem item-3">
+                    <h4 class="gridItem-name">Snapples</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Fruit-flavored drink</p>
+                      <p class="gridItem-details__price">1.50</p>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+                  <div class="gridItem item-4">
+                    <h4 class="gridItem-name">Pastelillos</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Puerto Rican Empanadas</p>
+                      <p class="gridItem-details__price">1.25</p>
+                    </div>
+                  </div>
+                    <!-- grid item 5-->
+                  <div class="gridItem item-5">
+                    <h4 class="gridItem-name">Turnovers</h4>
+                    <div class="gridItem-details">
+                      <p class="gridItem-details__info">Sweet or savory</p>
+                      <p class="gridItem-details__price">1.50</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- event section -->
+      <section id="events">
+        <div class="container">
+            <div class="event-pictures">
+              <div class="event-pictures__1">
+                <img src="..img/coqui-event2.jpg" alt="">
+              </div>
+              <div class="event-pictures__2">
+                <img src="..img/coqui-event4.jpg" alt="">
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="contant">contant</section>
+    </main>
+  </body>
+</html>

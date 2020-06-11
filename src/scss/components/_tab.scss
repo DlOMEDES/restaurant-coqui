@@ -1,0 +1,45 @@
+.tabContainer {
+  display: flex;
+
+  &-content {
+    flex: 1;
+  }
+}
+
+.tabGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.gridItem {
+  padding: 0 50px;
+  margin-bottom: 40px;
+  &-name {
+    font-size: 2.4rem;
+  }
+  &-details {
+    display: flex;
+    justify-content: space-between;
+
+    &__info {
+      padding: 0 1rem 0 0;
+    }
+  }
+}
+
+// TAB MENU LIST
+.tabMenu-list__item {
+  a {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    color: #333;
+    text-orientation: sideways;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+    // padding-right: 5px;
+    margin: 0 0 3rem 0;
+  }
+}

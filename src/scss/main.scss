@@ -1,0 +1,21 @@
+// @import "reset";
+
+// BASE STYLES
+// @import "base/reset"; using custom reset
+@import "base/utilities";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// COMPONENTS
+@import "components/slider";
+@import "components/dots";
+@import "components/tab";
+
+// LAYOUT
+@import "layout/header";
+@import "layout/topBanner";
+@import "layout/foodImages";
+// @import "layout/toDrink";
+// @import "layout/toEat";
+@import "layout/event";

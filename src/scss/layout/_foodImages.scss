@@ -1,0 +1,31 @@
+#foodImages {
+}
+
+.imageStack {
+  display: grid;
+  justify-content: center;
+  // ARTICLE
+  &-item {
+    width: 75rem;
+    // padding: 3rem;
+    // background: white;
+  }
+  // both images
+  img {
+    width: 100%;
+    object-fit: none;
+    height: 40rem;
+    border: 3rem solid $colorBackground;
+    object-fit: cover;
+  }
+  // top image
+  &-item:first-of-type {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+  }
+  // bottom image
+  &-item:last-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+  }
+}

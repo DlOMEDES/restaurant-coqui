@@ -1,0 +1,55 @@
+// main page header
+.topHeader {
+  background-color: $colorWhite;
+  padding: 0rem 5rem;
+  height: 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 30px -15px $colorSlate;
+}
+
+// LOGO
+.brand {
+  &-text {
+    position: relative;
+    z-index: 2;
+  }
+
+  &-img {
+    position: absolute;
+    width: 5rem;
+    top: 10px;
+    left: 18rem;
+    z-index: 1;
+  }
+}
+
+// navigation
+.topNav {
+  &-list {
+    display: flex;
+
+    &__item {
+      margin-left: 0.8rem;
+
+      a {
+        cursor: pointer;
+        padding: 1rem 2.8rem;
+      }
+      //   target last link
+      &:last-child {
+        a {
+          border: 0.15rem solid $colorAccent-2;
+          border-radius: 5rem;
+          color: $colorAccent-2;
+
+          &:hover {
+            background: $colorAccent-2;
+            color: $colorWhite;
+          }
+        }
+      }
+    }
+  }
+}

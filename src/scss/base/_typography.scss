@@ -1,0 +1,51 @@
+// BRAND ICON
+.brandLogo {
+  line-height: 1;
+}
+// BRAND TEXT
+.brand-text {
+  font-family: $font-display;
+  font-size: 2.2rem;
+  &__title {
+    // line-height: 0;
+  }
+  &__subtitle {
+    padding-left: 1rem;
+  }
+}
+
+// TARGET NAV LINKS
+.topNav-list__item {
+  a {
+    color: $colorSlate;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  //   target last link text
+  &:last-child {
+    a {
+      color: $colorAccent;
+    }
+  }
+}
+
+.content-list__item {
+  letter-spacing: 0.5rem;
+  font-size: 2.4rem;
+  line-height: 1;
+  z-index: 1;
+}
+
+// content list last item
+.text-change {
+  color: $colorAccent-2;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 5rem;
+  color: $colorAccent-2;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 0 0 3rem 0;
+}

@@ -1,0 +1,42 @@
+// COLOR VARIABLES
+$colorWhite: rgb(255, 255, 255);
+// $colorBackground: rgb(249, 247, 248);
+$colorBackground: rgb(253, 255, 233);
+// $colorAccent: rgb(208, 174, 117);
+$colorAccent: rgb(51, 21, 13);
+$colorAccent-2: rgb(255, 165, 0);
+// $colorChoco: rgb(148, 104, 95);
+// $colorSlate: rgb(65, 69, 82);
+$colorSlate: rgb(51, 21, 13);
+
+// FONT VARIABLES
+$font-primary: "Josefin Sans", sans-serif;
+$font-display: "Oregano";
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+section {
+  padding: 5rem 0 10rem 0;
+}
+
+// ACTIVE MENU LIST
+.menuItem-active {
+  position: relative;
+  a {
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0.2rem;
+      height: 100%;
+      background: $colorAccent-2;
+      top: -0.3rem;
+      left: -0.3rem;
+      margin-left: 5px;
+    }
+  }
+}
